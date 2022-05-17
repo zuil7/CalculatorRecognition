@@ -23,3 +23,6 @@ This app allows the user to capture arithmetic expressions from built in camera,
  	-  app-red-built-in-camera
 	-  app-green-filesystem
 	-  app-green-camera-roll
+6. The app can be switch during runtime by changing the build configuration.
+See below: 
+<a href="https://ibb.co/BwxcfVS"><img src="https://i.ibb.co/stGbgvM/Screen-Shot-2022-05-17-at-9-28-03-PM.png" alt="Screen-Shot-2022-05-17-at-9-28-03-PM" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>facebook url id number</a><br />
