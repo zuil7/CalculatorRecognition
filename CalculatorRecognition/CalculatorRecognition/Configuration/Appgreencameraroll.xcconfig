@@ -1,0 +1,16 @@
+//
+//  app-green-camera-roll.xcconfig
+//  CalculatorRecognition
+//
+//  Created by Louise on 5/10/22.
+//  Copyright © 2022 Louise Nicolas Namoc. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_NAME = AG Camera Roll
+APP_BUNDLE_ID = com.iremit.agcameraroll
+APP_FLAVOUR = appgreencameraroll
+
+APP_THEME = green

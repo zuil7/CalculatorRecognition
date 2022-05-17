@@ -1,0 +1,33 @@
+disabled_rules: # rule identifiers to exclude from running
+  - force_try
+  # By default, this limits us to a minimum of 3 characters. 
+  # But I think it's practical using 1 char at times when in a short block statement. 
+  - identifier_name
+  - todo
+  - trailing_comma
+  - trailing_whitespace
+  - type_body_length
+  - valid_ibinspectable
+# These are paths to ignore during linting. Takes precedence over `included`.
+excluded:
+  - Pods
+  - Vendors
+  - Tests
+  - UITests
+  - CalculatorRecognition/Helpers/R-Swift
+# These are paths to include during linting. `--path` is ignored if present.
+included: 
+  - CalculatorRecognition
+  
+# configurable rules can be customized from this configuration file
+# binary rules can set their severity level
+force_cast: warning
+identifier_name:
+  excluded:
+    - id
+line_length:
+  ignores_comments: true
+  warning: 120
+  error: 180 
+vertical_whitespace:
+  max_empty_lines: 2
