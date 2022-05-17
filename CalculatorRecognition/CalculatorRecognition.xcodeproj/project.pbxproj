@@ -9,11 +9,9 @@
 /* Begin PBXBuildFile section */
 		31E3FEF326C4F3A1008DAD43 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E3FEF226C4F3A1008DAD43 /* MainViewController.swift */; };
 		31E3FEF826C4F5C2008DAD43 /* Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E3FEF726C4F5C2008DAD43 /* Alias.swift */; };
-		31E3FEFD26C4F678008DAD43 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E3FEFC26C4F678008DAD43 /* Enums.swift */; };
 		31E3FF2A26C4FF7D008DAD43 /* ProgesssHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E3FF2926C4FF7D008DAD43 /* ProgesssHud.swift */; };
 		48E29837247A37FC00B6A520 /* CalculatorRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E29836247A37FC00B6A520 /* CalculatorRecognitionTests.swift */; };
 		48E29842247A37FC00B6A520 /* CalculatorRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E29841247A37FC00B6A520 /* CalculatorRecognitionUITests.swift */; };
-		48FD44C524839C0E004975D4 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FD44BE24839C0E004975D4 /* R.generated.swift */; };
 		48FD44C624839C0E004975D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FD44C024839C0E004975D4 /* ViewController.swift */; };
 		48FD44C724839C0E004975D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FD44C124839C0E004975D4 /* AppDelegate.swift */; };
 		48FD44C824839C0E004975D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FD44C224839C0E004975D4 /* SceneDelegate.swift */; };
@@ -34,7 +32,7 @@
 		B7DDBA66282A9B1900F13052 /* Appgreenfilesystem.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7DDBA63282A9B1900F13052 /* Appgreenfilesystem.xcconfig */; };
 		B7DDBA67282A9B1900F13052 /* Appredbuiltincamera.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7DDBA64282A9B1900F13052 /* Appredbuiltincamera.xcconfig */; };
 		B7DDBA76282A9BAB00F13052 /* Appredcameraroll.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7DDBA75282A9BAB00F13052 /* Appredcameraroll.xcconfig */; };
-		B7E51B512833968E00CC2415 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E51B502833968E00CC2415 /* DocumentBrowserViewController.swift */; };
+		B7E51B532833DC1500CC2415 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E51B522833DC1500CC2415 /* R.generated.swift */; };
 		B7FBB44F2816BE7F00BA57C6 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FBB44E2816BE7F00BA57C6 /* String+Regex.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +57,6 @@
 		13060A9C75AAC6850E52AAB2 /* Pods-CalculatorRecognition.appgreencameraroll.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorRecognition.appgreencameraroll.xcconfig"; path = "Target Support Files/Pods-CalculatorRecognition/Pods-CalculatorRecognition.appgreencameraroll.xcconfig"; sourceTree = "<group>"; };
 		31E3FEF226C4F3A1008DAD43 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		31E3FEF726C4F5C2008DAD43 /* Alias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alias.swift; sourceTree = "<group>"; };
-		31E3FEFC26C4F678008DAD43 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		31E3FF2926C4FF7D008DAD43 /* ProgesssHud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgesssHud.swift; sourceTree = "<group>"; };
 		396D36F664977ECE4692A48B /* Pods-CalculatorRecognition.appredcameraroll.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorRecognition.appredcameraroll.xcconfig"; path = "Target Support Files/Pods-CalculatorRecognition/Pods-CalculatorRecognition.appredcameraroll.xcconfig"; sourceTree = "<group>"; };
 		48E2981C247A37F900B6A520 /* CalculatorRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,7 +67,6 @@
 		48E2983D247A37FC00B6A520 /* CalculatorRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E29841247A37FC00B6A520 /* CalculatorRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorRecognitionUITests.swift; sourceTree = "<group>"; };
 		48E29843247A37FC00B6A520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48FD44BE24839C0E004975D4 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		48FD44C024839C0E004975D4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		48FD44C124839C0E004975D4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48FD44C224839C0E004975D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,7 +90,7 @@
 		B7DDBA63282A9B1900F13052 /* Appgreenfilesystem.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Appgreenfilesystem.xcconfig; sourceTree = "<group>"; };
 		B7DDBA64282A9B1900F13052 /* Appredbuiltincamera.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Appredbuiltincamera.xcconfig; sourceTree = "<group>"; };
 		B7DDBA75282A9BAB00F13052 /* Appredcameraroll.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Appredcameraroll.xcconfig; sourceTree = "<group>"; };
-		B7E51B502833968E00CC2415 /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
+		B7E51B522833DC1500CC2415 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		B7FBB44E2816BE7F00BA57C6 /* String+Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
 		E87044C96F2AA7387D0BB725 /* Pods-CalculatorRecognition.appredbuiltincamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorRecognition.appredbuiltincamera.xcconfig"; path = "Target Support Files/Pods-CalculatorRecognition/Pods-CalculatorRecognition.appredbuiltincamera.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,7 +126,6 @@
 			children = (
 				31E3FEE926C4F2E6008DAD43 /* ViewModel */,
 				31E3FEF226C4F3A1008DAD43 /* MainViewController.swift */,
-				B7E51B502833968E00CC2415 /* DocumentBrowserViewController.swift */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -229,7 +224,7 @@
 		48FD44BD24839C0E004975D4 /* R-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				48FD44BE24839C0E004975D4 /* R.generated.swift */,
+				B7E51B522833DC1500CC2415 /* R.generated.swift */,
 			);
 			path = "R-Swift";
 			sourceTree = "<group>";
@@ -249,7 +244,6 @@
 			isa = PBXGroup;
 			children = (
 				31E3FEF726C4F5C2008DAD43 /* Alias.swift */,
-				31E3FEFC26C4F678008DAD43 /* Enums.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -540,21 +534,19 @@
 			files = (
 				B7DDBA62282A9A8900F13052 /* ConfigProvider.swift in Sources */,
 				31E3FF2A26C4FF7D008DAD43 /* ProgesssHud.swift in Sources */,
+				B7E51B532833DC1500CC2415 /* R.generated.swift in Sources */,
 				B769717E28167CC6004DADA0 /* MainViewViewModel.swift in Sources */,
 				B7FBB44F2816BE7F00BA57C6 /* String+Regex.swift in Sources */,
 				B779C7F2271FE6F800AFFE10 /* View+Design.swift in Sources */,
 				48FD44C824839C0E004975D4 /* SceneDelegate.swift in Sources */,
-				31E3FEFD26C4F678008DAD43 /* Enums.swift in Sources */,
 				B76971682816734F004DADA0 /* ImagePicker.swift in Sources */,
 				48FD44C724839C0E004975D4 /* AppDelegate.swift in Sources */,
 				48FD44C624839C0E004975D4 /* ViewController.swift in Sources */,
-				48FD44C524839C0E004975D4 /* R.generated.swift in Sources */,
 				B769749927B0F74A00B4FB06 /* AppDelegate+Setup.swift in Sources */,
 				B769717C28167CC6004DADA0 /* MainViewViewModelProtocol.swift in Sources */,
 				31E3FEF826C4F5C2008DAD43 /* Alias.swift in Sources */,
 				B7DDBA61282A9A8900F13052 /* Bundle.swift in Sources */,
 				31E3FEF326C4F3A1008DAD43 /* MainViewController.swift in Sources */,
-				B7E51B512833968E00CC2415 /* DocumentBrowserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
